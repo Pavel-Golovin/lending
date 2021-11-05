@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 export const Info = () => {
 
-  const [ minutes, setMinutes ] = useState(0);
-  const [ seconds, setSeconds ] = useState(5);
+  const [ minutes, setMinutes ] = useState(30);
+  const [ seconds, setSeconds ] = useState(0);
 
   const formatTime = (time) => {
     const formattedData = time.toString();
